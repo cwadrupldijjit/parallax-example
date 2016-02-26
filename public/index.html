@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>parallax test</title>
+        
+        <link rel="stylesheet" href="/app/styles/main.css">
+    </head>
+    
+    <body>
+        <app>Loading . . .</app>
+        
+        <script src="/node_modules/systemjs/dist/system.js"></script>
+        <script src="/node_modules/angular2/bundles/angular2.dev.js"></script>
+        <script src="/node_modules/rxjs/bundles/Rx.js"></script>
+        <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+        
+        <script>
+            System.config({
+                paths: {
+                    '/*': '/app/*',
+                    'ng2-parallax/*': '/node_modules/ng2-parallax/*'
+                },
+                packages: {
+                    app: {
+                        format: 'register',
+                        defaultExtension: 'js'
+                    },
+                    '/node_modules/ng2-parallax': {
+                        format: 'register',
+                        defaultExtension: 'js'
+                    }
+                }
+            });
+            
+            System.import('/app/boot')
+                .then(null, console.error.bind(console));
+        </script>
+    </body>
+</html>

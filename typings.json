@@ -1,0 +1,14 @@
+{
+  "ambientDependencies": {
+    "body-parser": "github:DefinitelyTyped/DefinitelyTyped/body-parser/body-parser.d.ts#9a2c50ea846ee6ae36feaea0accc77ae7b08a748",
+    "cors": "github:DefinitelyTyped/DefinitelyTyped/cors/cors.d.ts#ee872c633411d2524cafc68d339f016acbfa1fd6",
+    "es6-promise": "github:DefinitelyTyped/DefinitelyTyped/es6-promise/es6-promise.d.ts#830e8ebd9ef137d039d5c7ede24a421f08595f83",
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
+    "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#dd638012d63e069f2c99d06ef4dcc9616a943ee4",
+    "gulp": "github:DefinitelyTyped/DefinitelyTyped/gulp/gulp.d.ts#052725d74978d6b8d7c4ff537b5a3b21ee755a49",
+    "gulp-sourcemaps": "github:DefinitelyTyped/DefinitelyTyped/gulp-sourcemaps/gulp-sourcemaps.d.ts#5d6c3bdb5d936b257f22961890141a999e19daef",
+    "gulp-typescript": "github:DefinitelyTyped/DefinitelyTyped/gulp-typescript/gulp-typescript.d.ts#960fd659b456e2fb5d23c52794ffdc56b09796cf",
+    "gulp-watch": "github:DefinitelyTyped/DefinitelyTyped/gulp-watch/gulp-watch.d.ts#6d72f60cc0b9449caac11817ea9448c977f7793c",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#20e1eb9616922d382d918cc5a21870a9dbe255f5"
+  }
+}

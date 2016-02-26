@@ -1,0 +1,7 @@
+[parallax] {
+    background-image: url(/app/styles/background-image.jpg);
+    background-size: 200%;
+    height: 400px;
+    margin: 500px 0;
+    width: 900px;
+}
